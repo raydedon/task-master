@@ -1,0 +1,29 @@
+.container {
+  width: 100vw;
+}
+
+@keyframes rotate-0-180 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.rotate-0-180 {
+  animation: rotate-0-180 2s linear;
+}
+
+@keyframes rotate-180-360 {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-180-360 {
+  animation: rotate-180-360 2s linear;
+}
