@@ -14,11 +14,11 @@ const Implementation = () => {
     const [rotateClass, setRotateClass] = useState<string>();
     const handleClick = () => {
         if(!rotateClass) {
-            setRotateClass('rotate-0-180');
-        } else if (rotateClass === 'rotate-0-180') {
-            setRotateClass('rotate-180-360');
-        } else if (rotateClass === 'rotate-180-360') {
-            setRotateClass('rotate-0-180');
+            setRotateClass('rotate-anim-0-180');
+        } else if (rotateClass === 'rotate-anim-0-180') {
+            setRotateClass('rotate-anim-180-360');
+        } else if (rotateClass === 'rotate-anim-180-360') {
+            setRotateClass('rotate-anim-0-180');
         }
     }
 

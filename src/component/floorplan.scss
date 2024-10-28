@@ -1,5 +1,5 @@
 .container {
-  width: 100vw;
+  width: 80vw;
 }
 
 @keyframes rotate-0-180 {
@@ -11,8 +11,12 @@
   }
 }
 
+.rotate-anim-0-180 {
+  animation: rotate-0-180 2s linear forwards;
+}
+
 .rotate-0-180 {
-  animation: rotate-0-180 2s linear;
+  transform: rotate(180deg);
 }
 
 @keyframes rotate-180-360 {
@@ -24,6 +28,10 @@
   }
 }
 
+.rotate-anim-180-360 {
+  animation: rotate-180-360 2s linear forwards;
+}
+
 .rotate-180-360 {
-  animation: rotate-180-360 2s linear;
+  transform: rotate(360deg);
 }
