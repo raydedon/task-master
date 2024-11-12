@@ -10,7 +10,7 @@ export const App = () => {
         <div className="App">
            <div className={'tabs'}>
                <button onClick={() => setIsDescription(true)} className={isDescription ? 'active' : ''}>Description</button>
-               <button onClick={() => setIsDescription(false)} className={!isDescription ? 'active' : ''}>Implementation</button>
+               <button onClick={() => setIsDescription(false)} className={!isDescription ? 'active' : ''}>Implementation1</button>
            </div>
 
             <div className={'content'}>
